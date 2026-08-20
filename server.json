@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/registradores_matric_download-mcp",
+  "title": "Registradores (ARISP) Matrícula: Download de Matrícula",
+  "description": "Registradores (ARISP) Matrícula: Download de Matrícula, official-source lookup. Platform-hosted, pay",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/registradores_matric_download-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_registradores_matric_download"
+    }
+  ]
+}
